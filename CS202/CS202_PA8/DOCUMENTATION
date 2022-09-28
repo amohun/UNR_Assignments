@@ -1,0 +1,44 @@
+Repurposed from previous assignments
+
+Purpose: 
+The purpose of this project was to help develop our understanding of linked lists and
+the differences between array linked lists and node linked lists. As such that was the sole focus of
+the project. I found this project also covered the dangers of dynamic memory and emphasized the
+many reasons it should and should not be used. Overall, however, this purpose was solely on
+linked lists and implementing them into our programs.
+
+Design:
+As I was instructed to, I designed this project into 2 files (in addition to the rest of the
+files provided for this project) and used the separate files to define the functions for the classes. I
+defined the array class first since it was the first one given. There were the three constructors and
+one destructor that needed to be made in order to deal with the information given by the user.
+Additionally I defined multiple functions to interact with the list and find the different objects
+throughout. There were other more functional functions as well, including erase, to erase the list,
+empty, to check if the list was empty, and find, to find specific items in the list. Overall the array
+list was easy, the difficult part came to the node linked list.
+In theory, the node linked list was going to be easier than the array linked list. I defined
+the elements such that the node would be able to gain the address to the next node, if there was
+one, as well as the data assigned to it at that time, which only became a buren after the default
+constructor. All in all the node list file was really similar to the array linked list, and as such it
+included many of the same items. I had to be careful to not mess up the functions however, and
+set the memory to non-used locations after checking to make sure that they were available. In
+conclusion, this program was relatively simple in design but way more complex in nature than
+anything else that I have dealt with.
+
+Problems:
+I am not going to lie. This lab was really difficult for me. It may be because I am sick
+during the time, or that I have had 3 events a test and a quiz in the meantime, but I found myself
+struggling to finish on time. That probably was the source of some if not all of my errors. If you
+are reading this and look at the program you will see segmentation faults. I don’t know why, and
+I don’t have a solution for them. They consumed me until I decided to let them go. Honestly they
+would have been fine if they were in the same spot consistently, but they constantly changed
+position and I could never pin them down. Additionally, numbers never wanted to be transferred
+over to any place, there was always something that was keeping them from being used in the
+linked lists or being pulled from the linked lists. I don’t really have a solution for that but it did
+come as a result of rearranging functions and trying different combinations of numbers.
+
+Future:
+In the future I would like to be able to fix my program. I ran out of time now, and despite
+working hard on it I need to quit some time. If I had more, I would solve all of the problems and
+hopefully organize it to be a better program, more diligent over what I need it to do and what I
+want to learn from it
