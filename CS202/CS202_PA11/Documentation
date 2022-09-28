@@ -1,0 +1,44 @@
+This project has been adapted from a project from CS202 at the University of Nevada, Reno. The work is my own and
+should not be copied directly from project solutions. Hopefully it can provide insight into my though process and 
+problem solving.
+
+Purpose: 
+The purpose of this project was to learn how to interact with vectors as well as be able
+to implement recursive functions in a program. This program was also defined to use templated
+classes, in order to better help us understand templating, but there was mainly alteration of
+integer based vectors, never really anything outside of that. The main goal of the project was to
+take in a vector of different integers and use it to sort the vector and find an integer within it.
+
+Design:
+This project was a lot easier than the last one for some reason. This probably was due to
+the reason that I have a better understanding of the idea of vectors, templates, and recursion. My
+design process was in two parts, the first was to work on the two recursive functions.
+ The recursive sort function was designed in the manner described in the project
+description, where for every time two adjacent objects were right next to one another, they would
+be swapped, and every time they swapped the function would be called again. This was the
+easiest function to write because it required no return value, and only needed a simple check
+instruction to determine when and how to repeat itself.
+The recursive search function was a bit more difficult as it was used to find an object and
+return its place in the vector. In order to do this, I found that I needed four inputs for the
+function. I needed the vector, the value, the start of where to look, and the end of where to look.
+This allowed me to constantly check with narrower scopes without losing the position of the
+original vector value.
+After I developed the two functions and tested to make sure that they worked I used the
+different file to create a class in order to template the functions beyond the use of integers.
+Nevertheless, I tested the function with integers and the provided input file. This class was
+developed to test the functions and allow me to print out the information needed from the
+different vectors, as such I created two print functions to print both the copy and the initial
+vector.
+
+Problems:
+My biggest problem in this entire project is not understanding the vague instructions.
+While I understand that this was more of a task than a project, the task was vague and awkwardly
+worded. I found myself trying to solve problems that didn’t actually exist and ended up having to
+exhaustively read the instructions multiple times in scrutinous detail. Nevertheless, I was able to
+finish the project completely and without segmentation faults this time around, and hopefully
+have done well enough in my understanding in vectors to have done the project correctly.
+
+Future:
+If I were to finish this project even further, I would go beyond the initial templating to a
+complete generalization of the functions in order to better understand the ideas of templates and
+allow this program to be used with any kind of variable or type
