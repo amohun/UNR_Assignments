@@ -1,0 +1,41 @@
+This documentation has been adapted from previous assignments done for the CS202
+course at the University of Nevada, Reno
+
+Purpose: 
+The purpose of this project was to design and implement two different kinds of stacks
+with a template base: array queues, and node based queues. This was solely based on a
+conceptual idea, we were required to develop what would be similar to the standard template
+library for a stack.
+
+Design:
+This project was way more difficult than the last one, however it followed the exact same
+structure as the last one for its setup, it just designed the program to be around templates and for
+a stack as opposed to a que for both arrays and nodes. This means, instead of 5 files, I only had
+to create 3.
+ For this program I had to develop a 3 separate files, the first to test the other two, the
+second to set up the array stack, and the third to set up the node stack. The first file was broken
+into the array tests and the second for the node tests. Because of this I ran through each of the
+files going with each test in order of the file outside of the functions that were needed for it to be
+tested.
+The array stack was altered from the given stack header with the notes from the lab to
+turn it into a template based stack. This meant that it could be used for any set of information and
+would run with any given input as long as the input remained consistent. I then went to
+developing the function implementations so that they were set up.
+The node based stack was used for a dynamic allocation for the stack. It was developed in
+the same manner, however it needed to include both a copy constructor, along with an
+assignment operator, and a destructor. This is because the nodes needed to be deleted and only
+allocated if there was enough memory. Outside of that the only change from the last section I
+needed to implement was that the classes were templated, which meant that every call with the
+template needed to have it defined.
+
+Problems:
+This problem was way more difficult. Mainly due to lack of definition in the ideas of
+templates, solely because I forgot to include the definitions of all of the different templates for all
+of the classes, especially in the Node Stack. Outside of that, my biggest problem was the
+segmentation faults which were for the most problem fixable through just going back through my
+code and making sure that calls to different nodes and node parts were not undefined.
+
+Future:
+This assignment was difficult because I could not find the time to complete everything. I
+was unable to find the time to make the best program. I was lax on comments, and I get the
+feeling that I will not be able to completely solve occasional segmentation faults
